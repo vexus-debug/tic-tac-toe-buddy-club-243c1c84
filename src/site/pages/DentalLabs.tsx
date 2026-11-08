@@ -11,6 +11,7 @@ import shotCalendar from "@/assets/dashboard-shots/dlab-calendar.png";
 import shotClients from "@/assets/dashboard-shots/dlab-clients.png";
 import shotBilling from "@/assets/dashboard-shots/dlab-billing.png";
 import { LocalSeo } from "@/site/components/LocalSeo";
+import { usePageMeta } from "@/site/components/usePageMeta";
 import { ClosingBanner } from "@/site/components/industry/IndustrySections";
 
 const WHATSAPP = "https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus%20for%20dental%20labs";
@@ -64,7 +65,9 @@ const extras = [
 
 const roles = ["Owner", "Lab manager", "CAD designer", "Technician", "Ceramist", "QC inspector", "Dispatch", "Accountant"];
 
-const DentalLabs = () => (
+const DentalLabs = () => {
+  usePageMeta("Dental Lab Software | Clinexus", "Case tracking, production, CAD/CAM, QC and billing software for dental laboratories.");
+  return (
   <Layout>
     <ClinicalHero
       kicker="Clinexus for dental labs"

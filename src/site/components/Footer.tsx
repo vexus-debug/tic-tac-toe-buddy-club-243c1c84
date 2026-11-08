@@ -8,6 +8,8 @@ const columns = [
     { label: "Eye clinics", to: "/industries/eye-clinics" },
     { label: "Dental clinics", to: "/industries/dental-clinics" },
     { label: "Dental clinic pricing", to: "/industries/dental-clinics/pricing" },
+    { label: "Dental labs", to: "/industries/dental-labs" },
+    { label: "Dental lab pricing", to: "/industries/dental-labs/pricing" },
   ]},
   { title: "Resources", links: [
     { label: "Tutorials", to: "/tutorials" },

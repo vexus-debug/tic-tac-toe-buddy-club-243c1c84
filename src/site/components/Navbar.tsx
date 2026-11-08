@@ -13,6 +13,8 @@ const mobileGroups = [
       { label: "All industries", to: "/industries" },
       { label: "Eye clinics", to: "/industries/eye-clinics" },
       { label: "Dental clinics", to: "/industries/dental-clinics" },
+      { label: "Dental labs", to: "/industries/dental-labs" },
+      { label: "Dental lab pricing", to: "/industries/dental-labs/pricing" },
     ],
   },
   {
@@ -48,6 +50,8 @@ const megaMenus = [
       { label: "Eye clinics", desc: "Optometry, refraction and optical sales in one place.", to: "/industries/eye-clinics", icon: Eye },
       { label: "Dental clinics", desc: "Charting, treatment plans and chair scheduling.", to: "/industries/dental-clinics", icon: Stethoscope },
       { label: "Dental clinic pricing", desc: "Setup fee plus ₦1,000 per patient case.", to: "/industries/dental-clinics/pricing", icon: Sparkles },
+      { label: "Dental labs", desc: "Case tracking, CAD/CAM, QC and lab billing.", to: "/industries/dental-labs", icon: Stethoscope },
+      { label: "Dental lab pricing", desc: "Per-case pricing that drops with volume.", to: "/industries/dental-labs/pricing", icon: Sparkles },
     ],
   },
   {
