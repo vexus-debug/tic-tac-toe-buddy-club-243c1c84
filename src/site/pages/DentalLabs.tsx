@@ -137,6 +137,16 @@ const DentalLabs = () => {
         </div>
       </section>
 
+      <div className="bg-background px-4 pt-12 text-center sm:px-6">
+        <a
+          href="/industries/dental-labs/features"
+          className="group inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 text-base font-semibold text-primary-foreground shadow-lg shadow-primary/25 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/30"
+        >
+          Explore all lab features
+          <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" aria-hidden="true" />
+        </a>
+      </div>
+
       <section className="bg-background py-16 lg:py-24">
         <div className="mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16">
           <div>
