@@ -41,7 +41,7 @@ export function ScreenshotCarousel({ shots }: { shots: Shot[] }) {
                   <span className="ml-3 truncate text-xs text-muted-foreground">{s.caption}</span>
                 </div>
                 <img
-                  src={`${BASE}/${s.file}`}
+                  src={/^(https?:|\/)/.test(s.file) ? s.file : `${BASE}/${s.file}`}
                   alt={s.caption}
                   loading="lazy"
                   className="aspect-[16/10] w-full bg-background object-contain object-top"
