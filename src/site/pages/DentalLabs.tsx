@@ -178,6 +178,7 @@ const DentalLabs = () => {
       <LocalSeo specialty="Dental labs" />
     </div>
   </Layout>
-);
+  );
+};
 
 export default DentalLabs;
