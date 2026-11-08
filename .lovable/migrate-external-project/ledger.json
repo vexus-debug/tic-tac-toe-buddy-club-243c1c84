@@ -1,0 +1,103 @@
+{
+  "source": "https://github.com/vexus-debug/tic-tac-toe-buddy-club-43e3caab.git",
+  "capabilities": [
+    {
+      "capability": "code",
+      "source": "GitHub repository",
+      "outcome": "import as-is",
+      "status": "imported",
+      "next_action": "No further checks requested."
+    },
+    {
+      "capability": "schema",
+      "source": "repository manifest",
+      "outcome": "no schema detected",
+      "status": "pending",
+      "next_action": "No schema changes requested."
+    },
+    {
+      "capability": "records",
+      "source": "repository manifest",
+      "outcome": "no record export attached",
+      "status": "pending",
+      "next_action": "Not part of the requested code import."
+    },
+    {
+      "capability": "auth identities",
+      "source": "repository manifest",
+      "outcome": "not migrated",
+      "status": "pending",
+      "next_action": "Not part of the requested code import."
+    },
+    {
+      "capability": "authorization",
+      "source": "repository code",
+      "outcome": "preserve source files",
+      "status": "pending",
+      "next_action": "No behavior changes requested."
+    },
+    {
+      "capability": "uploaded file bytes",
+      "source": "repository",
+      "outcome": "preserve repository files",
+      "status": "pending",
+      "next_action": "No separate uploaded-file export attached."
+    },
+    {
+      "capability": "external providers",
+      "source": "repository manifest",
+      "outcome": "preserve configuration files; exclude source .env",
+      "status": "pending",
+      "next_action": "Keep existing project Supabase connection."
+    },
+    {
+      "capability": "public endpoints",
+      "source": "repository code",
+      "outcome": "preserve source files",
+      "status": "pending",
+      "next_action": "No behavior changes requested."
+    },
+    {
+      "capability": "callbacks",
+      "source": "repository code",
+      "outcome": "preserve source files",
+      "status": "pending",
+      "next_action": "No behavior changes requested."
+    },
+    {
+      "capability": "webhooks",
+      "source": "repository code",
+      "outcome": "preserve source files",
+      "status": "pending",
+      "next_action": "No behavior changes requested."
+    },
+    {
+      "capability": "schedules",
+      "source": "repository code",
+      "outcome": "preserve source files",
+      "status": "pending",
+      "next_action": "No behavior changes requested."
+    },
+    {
+      "capability": "secrets",
+      "source": "source .env",
+      "outcome": "excluded",
+      "status": "pending",
+      "next_action": "Use existing project-managed credentials; do not copy source credentials."
+    },
+    {
+      "capability": "cutover",
+      "source": "source project",
+      "outcome": "not performed",
+      "status": "pending",
+      "next_action": "No cutover requested."
+    },
+    {
+      "capability": "verification",
+      "source": "user instruction",
+      "outcome": "not performed",
+      "status": "pending",
+      "next_action": "User will run checks and tests."
+    }
+  ]
+}
